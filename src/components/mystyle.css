@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(41, 38, 36);
+}
+.main_usestate {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+.main_usestate1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 7rem;
+  text-transform: capitalize;
+}
+
+.h1style {
+  min-width: 20rem;
+  width: 60rem;
+  padding: 2rem 2rem;
+  background-color: azure;
+  color: #2980b9;
+  border-radius: 5rem;
+  box-shadow: 0rem 2rem 2rem -1.5rem rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+form {
+  background: cornflowerblue;
+  border-radius: 1rem;
+  outline: none;
+  text-align: left;
+}
+
+form label {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+form input {
+  min-width: 20rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-align: left;
+  border: none;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.showDataStyle {
+  min-width: 20rem;
+  width: 60rem;
+  min-height: 2rem;
+  padding: 1rem;
+  background: rgb(68, 116, 207);
+  color: aliceblue;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.5);
+}
+
+.showDataStyle p {
+  font-size: 1.5rem;
+}
+
+.showDataStyle p:first-child {
+  font-weight: bold;
+}
